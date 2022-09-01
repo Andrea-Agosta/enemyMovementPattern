@@ -19,7 +19,7 @@ class Enemy {
     this.y = Math.random() * (canvas.height - this.height);
     this.frame = 0;
     this.flapSpeed = Math.floor(Math.random() * 3 + 1);
-    this.angle = 0;
+    this.angle = Math.random() * 500;
     this.angleSpeed = Math.random() * 1.5 + 0.5;
     // this.curve = Math.random() * 200 + 50;
   }
